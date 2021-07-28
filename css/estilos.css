@@ -127,6 +127,10 @@ footer p {
     font-weight: bold;
 }
 
+.p-footer {
+    margin-top: 40px;
+}
+
 /** Estilo página nosotros con Grid **/
 .imagenHeader {
     background-image: url(../img/fondoheader.jpg);
