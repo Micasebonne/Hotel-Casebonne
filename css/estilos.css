@@ -1,0 +1,200 @@
+/** Css reset **/
+* {
+    margin: 0;
+    padding: 0
+}
+
+/** Estilo header **/
+a {
+    color: #F0A459;
+    text-decoration: none;
+}
+
+/**  Menu con flexbox **/  
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    height: 10vh;
+    padding: 10px;
+}
+
+.header nav {
+    width: 50%;
+    padding: 10px;
+}
+
+.header ul { 
+    display: flex;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #F0A459;
+    list-style-type: none;
+}
+
+.header li {
+    background-color: black;
+    padding: 2%;
+    border-style: solid;
+    border-radius: 40px;
+}
+
+/** Estilo body **/
+body {
+    background-color:#2F2114;
+    font-family: 'Viaoda Libre', cursive;
+}
+
+/** Estilo textos **/
+h1 {
+    color: #FCDFA7;
+    text-align: center;
+    text-decoration: underline;
+    word-spacing: 2px;
+    letter-spacing: 4px;
+    margin-top: 2%;
+}
+
+h2 {
+  color: #ff8080;
+  text-align: center;
+}
+
+p {
+    color: #E9967A;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/** Estilo página Index con flexbox **/
+.imagenIndex {
+    background-image: url(recepcion-hoteles.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+.imagenIndex h1 {
+    font-size: 40px;
+    text-decoration: none;
+    max-width: 300px;
+    text-align: center;
+}
+
+.containerIndex {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.containerIndex article {
+    width: 30%;
+    text-align: center;
+}
+
+.containerIndex h2 {
+    margin-bottom: 20px;
+}
+
+.containerIndex img {
+    width: 90%;
+    border-radius: 5px;
+}
+
+/**  Footer con Flexbox   **/
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 50px;
+    background-color: chocolate;
+}
+
+footer p {
+    color: black;
+    font-weight: bold;
+}
+
+/** Estilo página nosotros con Grid **/
+.imagenHeader {
+    background-image: url(fondoheader.jpg);
+    background-repeat: repeat-x;
+    background-size: absolute;
+    padding: 3%;    
+}
+
+.containerGrid {
+    display: grid;
+    grid-template-columns: 1fr 50%;
+    grid-template-rows: 10% 10%;
+    grid-column-gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 30px;
+    background-color: black;
+    border-radius: 15px;
+    text-align: center;   
+}
+
+img {
+    width: 40vw;
+    border-radius: 20px;
+}
+
+/**   Estilo página habitaciones/tabla   **/
+table {
+  color: #ff8080;
+  margin: 0 auto;
+  border-style: double;
+  border-color: grey;
+  border-spacing: 4px;
+}
+
+.colorPhTabla {
+    color: #ff8080;
+}
+
+table tr td ul li {
+    margin-left: 25%;
+}
+
+/**  Estilo página contacto  **/
+label {
+    background-color: black;
+    color:white;
+    font-weight: bold;
+}
+
+.colorPhFormulario {
+    color: white;
+    font-weight: bold;
+} 
+
+.imagenFondo {
+    background-image: url(fondoformulario.jpg);
+    background-position: center;
+
+}
+
+form {
+    margin-top: 30px;
+    text-align: center;
+}
+
+span {
+    background-color: black
+}

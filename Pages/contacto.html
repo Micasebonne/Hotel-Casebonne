@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--  Inicio encabezado / menú con flexbox -->
+    <header class="header">
+        <nav>
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="nosotros.html">Nosotros</a></li>
+            <li> <a href="habitaciones.html">Habitaciones</a></li>
+            <li> <a href="contacto.html">Contacto</a></li>    
+        </ul>
+        </nav>        
+    </header>
+
+    <!--  Inicio contenido principal  -->
+    <h1>¿Tenés alguna duda o pregunta?</h1>
+    <h2>¡No dudes en contactarnos!</h2>
+
+    <div class="imagenFondo">
+    <form action="">
+        <fieldset> <br>
+            <label for="Nombre" class="color-formulario"> Nombre:</label>
+            <input type="text" name="Nombre" placeholder="Ej: Lucas"> <br>
+            <label for="Apellido"> Apellido:</label>
+            <input type="text" name=Apellido placeholder="Ej: Rodriguez"><br>
+            <label for="Email"> Email:</label>
+            <input type="text" name="Email" size="30" placeholder="Ej: mequierocontactar@hotmail.com"><br> <br>
+    
+        <p  class="colorPhFormulario"><span>Tipo de habitacion:</span></p>    
+            <select name="Habitacion">
+            <option value="S">Simple</option>
+            <option value="D">Doble</option>
+            <option value="KS">King Size</option>
+            <option value="B">Con balcon</option>
+            <option value="BJ">Con balcon y jacuzzi</option>
+            <option value="O">Otra</option>
+            </select>
+   
+        <p class="colorPhFormulario"> <span>Deseo suscribirme para recibir las promociones</span></p>
+            <input type="checkbox" name="Acepta" value="1"> <br> <br>
+            
+            <input type="submit" value="Enviar fomulario">
+            <input type="reset" value="Limpiar formulario">
+        </fieldset>
+    </form>
+    </div>
+
+    <!--  Pie de página  -->
+    <footer>
+    <p>Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
